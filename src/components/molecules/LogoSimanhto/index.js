@@ -14,7 +14,7 @@ const LogoSimanhto = () => {
 export default LogoSimanhto;
 
 const styles = StyleSheet.create({
-  title: {fontSize: 22, fontFamily: 'Poppins-Medium', color: '#FFFF'},
+  title: {fontSize: 22, fontFamily: 'Poppins-Medium', color: '#28925A'},
   container: {
     alignItems: 'center',
     backgroundColor: '#28925A',
