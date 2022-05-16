@@ -1,6 +1,4 @@
-import ButtonPedoman from './ButtonPedoman';
-import ButtonDoa from './ButtonDoa';
-import ButtonVideo from './ButtonVideo';
-import ButtonZoom from './ButtonZoom';
+import Button from './Button';
+import Gap from './Gap';
 
-export {ButtonPedoman, ButtonDoa, ButtonVideo, ButtonZoom};
+export {Button, Gap};

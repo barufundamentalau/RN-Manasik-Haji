@@ -1,14 +1,14 @@
 import {StyleSheet, Text, View} from 'react-native';
 import React from 'react';
 
-const ButtonVideo = () => {
+const LogoSimanhto = () => {
   return (
     <View>
-      <Text>Button Video</Text>
+      <Text>Logo Simanhto</Text>
     </View>
   );
 };
 
-export default ButtonVideo;
+export default LogoSimanhto;
 
 const styles = StyleSheet.create({});
