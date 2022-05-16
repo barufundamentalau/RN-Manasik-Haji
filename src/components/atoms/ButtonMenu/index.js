@@ -1,7 +1,12 @@
 import React from 'react';
 import {TouchableOpacity, StyleSheet, Text, View} from 'react-native';
 
-const Button = ({text, color = '#D9DDDC', textColor = '#020202', onPress}) => {
+const ButtonMenu = ({
+  text,
+  color = '#D9DDDC',
+  textColor = '#020202',
+  onPress,
+}) => {
   return (
     <TouchableOpacity activeOpacity={0.9} onPress={onPress}>
       <View style={styles.container(color)}>
@@ -11,16 +16,16 @@ const Button = ({text, color = '#D9DDDC', textColor = '#020202', onPress}) => {
   );
 };
 
-export default Button;
+export default ButtonMenu;
 
 const styles = StyleSheet.create({
   container: color => ({
     backgroundColor: color,
-    padding: 18,
-    borderRadius: 8,
+    padding: 8,
+    borderRadius: 4,
   }),
   text: color => ({
-    fontSize: 14,
+    fontSize: 12,
     fontFamily: 'Poppins-Medium',
     color: color,
     textAlign: 'center',

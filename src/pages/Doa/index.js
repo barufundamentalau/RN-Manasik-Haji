@@ -5,7 +5,7 @@ import {HeaderMenu} from '../../components';
 const Doa = () => {
   return (
     <View>
-      <HeaderMenu title="Doa" />
+      <HeaderMenu title="Doa-Doa Manasik Haji dan Umroh" />
       <Text>Doa Page</Text>
     </View>
   );

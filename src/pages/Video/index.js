@@ -5,7 +5,7 @@ import {HeaderMenu} from '../../components';
 const Video = () => {
   return (
     <View>
-      <HeaderMenu title="Video" />
+      <HeaderMenu title="Video Tutorial" />
       <Text>Video Page</Text>
     </View>
   );

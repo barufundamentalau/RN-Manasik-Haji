@@ -5,7 +5,7 @@ import {HeaderMenu} from '../../components';
 const Jadwal = () => {
   return (
     <View>
-      <HeaderMenu title="Jadwal" />
+      <HeaderMenu title="Jadwal Zoom" />
       <Text>Jadwal Page</Text>
     </View>
   );

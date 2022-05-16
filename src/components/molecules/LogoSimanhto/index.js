@@ -7,6 +7,9 @@ const LogoSimanhto = () => {
     <View style={styles.container}>
       <Logo />
       <Text style={styles.title}>Si Manhto</Text>
+      <Text style={styles.subTitle}>
+        Sistem Informasi Manasik Haji Terintegrasi Online
+      </Text>
     </View>
   );
 };
@@ -14,7 +17,6 @@ const LogoSimanhto = () => {
 export default LogoSimanhto;
 
 const styles = StyleSheet.create({
-  title: {fontSize: 22, fontFamily: 'Poppins-Medium', color: '#28925A'},
   container: {
     alignItems: 'center',
     backgroundColor: '#28925A',
@@ -22,4 +24,11 @@ const styles = StyleSheet.create({
     paddingTop: 26,
     paddingBottom: 30,
   },
+  title: {
+    fontSize: 22,
+    fontFamily: 'Poppins-Medium',
+    color: '#FFFF',
+    marginBottom: -6,
+  },
+  subTitle: {fontSize: 10, fontFamily: 'Poppins-Light', color: 'yellow'},
 });

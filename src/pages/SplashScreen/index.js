@@ -18,8 +18,23 @@ const SplashScreen = ({navigation}) => {
       }}>
       <Logo />
       <View style={{height: 20}} />
-      <Text style={{fontSize: 32, color: '#FFF', fontFamily: 'Poppins-Medium'}}>
-        SiManhto
+      <Text
+        style={{
+          fontSize: 32,
+          color: '#FFF',
+          fontFamily: 'Poppins-Medium',
+          marginBottom: 40,
+        }}>
+        Si Manhto
+      </Text>
+      <Text
+        style={{
+          fontSize: 10,
+          fontFamily: 'Poppins-Light',
+          color: 'yellow',
+          marginTop: -50,
+        }}>
+        Sistem Informasi Manasik Haji Terintegrasi Online
       </Text>
     </View>
   );
