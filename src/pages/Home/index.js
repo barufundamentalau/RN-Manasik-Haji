@@ -12,11 +12,11 @@ const Home = () => {
         <Gap height={14} />
         <Button text="Pedoman Manasik Haji dan Umroh" />
         <Gap height={14} />
-        <Button text="Doa-Doa Manasik Haji dan Umroh" color="#8D92A3" />
+        <Button text="Doa-Doa Manasik Haji dan Umroh" color="#FFFF" />
         <Gap height={14} />
         <Button text="Video Tutorial" />
         <Gap height={14} />
-        <Button text="Jadwal Zoom" color="#8D92A3" />
+        <Button text="Jadwal Zoom" color="#FFFF" />
       </View>
     </View>
   );

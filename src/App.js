@@ -1,14 +1,13 @@
 import 'react-native-gesture-handler';
 import React from 'react';
-import {SplashScreen} from './pages';
+import {SplashScreen, Home} from './pages';
 import {NavigationContainer} from '@react-navigation/native';
-import Home from './pages/Home';
+import Router from './router';
 
 const App = () => {
   return (
     <NavigationContainer>
-      {/* <SplashScreen /> */}
-      <Home />
+      <Router />
     </NavigationContainer>
   );
 };
