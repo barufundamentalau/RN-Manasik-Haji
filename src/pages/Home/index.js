@@ -1,6 +1,6 @@
 import {StyleSheet, Text, View} from 'react-native';
 import React from 'react';
-import {Button, ButtonNavigator, Gap, LogoSimanhto} from '../../components';
+import {Button, Gap, LogoSimanhto, ButtonNav} from '../../components';
 
 const Home = ({navigation}) => {
   return (
@@ -33,7 +33,7 @@ const Home = ({navigation}) => {
         />
       </View>
       <View>
-        <ButtonNavigator onPress={() => navigation.navigate('MainApp')} />
+        <ButtonNav onPress={() => navigation.navigate('MainApp')} />
       </View>
     </View>
   );
