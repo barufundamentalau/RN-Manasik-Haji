@@ -2,12 +2,14 @@ import {StyleSheet, Text, View, Image} from 'react-native';
 import React from 'react';
 import {IcJadwalSatu} from '../../../assets';
 
-const BannerCard = ({image, text}) => {
+const BannerCard = ({image}) => {
   return (
     <View style={styles.container}>
       <Image source={image} style={styles.image} />
       <View style={styles.content}>
-        <Text style={styles.text}>Judul Banner</Text>
+        <Text style={styles.text}>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        </Text>
       </View>
     </View>
   );
