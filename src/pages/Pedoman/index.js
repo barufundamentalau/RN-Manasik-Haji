@@ -1,6 +1,6 @@
 import React from 'react';
-import {StyleSheet, Text, View} from 'react-native';
-import {HeaderMenu, ButtonMenu, Gap} from '../../components';
+import {StyleSheet, Text, View, ScrollView} from 'react-native';
+import {HeaderMenu, Button, Gap} from '../../components';
 
 const Pedoman = ({navigation}) => {
   return (
@@ -8,79 +8,78 @@ const Pedoman = ({navigation}) => {
       <View>
         <HeaderMenu title="Pedoman Manasik Haji dan Umroh" />
       </View>
-      <View style={styles.container}>
-        <Gap height={6} />
-        <ButtonMenu
-          text="Pengertian Haji dan Umroh"
-          onPress={() => navigation.navigate('Pedoman')}
-        />
-        <Gap height={6} />
-        <ButtonMenu
-          text="Syarat Haji dan Umroh"
-          color="#FFFF"
-          onPress={() => navigation.navigate('Pedoman')}
-        />
-        <Gap height={6} />
-        <ButtonMenu
-          text="Rukun Manasik Haji dan Umroh"
-          onPress={() => navigation.navigate('Pedoman')}
-        />
-        <Gap height={6} />
-        <ButtonMenu
-          text="Wajib Haji"
-          color="#FFFF"
-          onPress={() => navigation.navigate('Pedoman')}
-        />
-        <Gap height={6} />
-        <ButtonMenu
-          text="Jenis Jenis Haji"
-          onPress={() => navigation.navigate('Pedoman')}
-        />
-        <Gap height={6} />
-        <ButtonMenu
-          text="Niat Ihram dan Miqot"
-          color="#FFFF"
-          onPress={() => navigation.navigate('Pedoman')}
-        />
-        <Gap height={6} />
-        <ButtonMenu
-          text="Tawaf"
-          onPress={() => navigation.navigate('Pedoman')}
-        />
-        <Gap height={6} />
-        <ButtonMenu
-          text="Sa'i"
-          color="#FFFF"
-          onPress={() => navigation.navigate('Pedoman')}
-        />
-        <Gap height={6} />
-        <ButtonMenu
-          text="Wuquf di Arofah"
-          onPress={() => navigation.navigate('Pedoman')}
-        />
-        <Gap height={6} />
-        <ButtonMenu
-          text="Mabid di Musdalifa"
-          color="#FFFF"
-          onPress={() => navigation.navigate('Pedoman')}
-        />
-        <Gap height={6} />
-        <ButtonMenu
-          text="Melontar Jumrah di Mina"
-          onPress={() => navigation.navigate('Pedoman')}
-        />
-        <Gap height={6} />
-        <ButtonMenu
-          text="Tawaf Ifadah"
-          color="#FFFF"
-          onPress={() => navigation.navigate('Pedoman')}
-        />
-        <Gap height={6} />
-        <ButtonMenu
-          text="Tahallul"
-          onPress={() => navigation.navigate('Pedoman')}
-        />
-      </View>
+      <ScrollView>
+        <View style={styles.container}>
+          <Gap height={6} />
+          <Button
+            text="Pengertian Haji dan Umroh"
+            onPress={() => navigation.navigate('Pedoman')}
+          />
+          <Gap height={6} />
+          <Button
+            text="Syarat Haji dan Umroh"
+            color="#FFFF"
+            onPress={() => navigation.navigate('Pedoman')}
+          />
+          <Gap height={6} />
+          <Button
+            text="Rukun Manasik Haji dan Umroh"
+            onPress={() => navigation.navigate('Pedoman')}
+          />
+          <Gap height={6} />
+          <Button
+            text="Wajib Haji"
+            color="#FFFF"
+            onPress={() => navigation.navigate('Pedoman')}
+          />
+          <Gap height={6} />
+          <Button
+            text="Jenis Jenis Haji"
+            onPress={() => navigation.navigate('Pedoman')}
+          />
+          <Gap height={6} />
+          <Button
+            text="Niat Ihram dan Miqot"
+            color="#FFFF"
+            onPress={() => navigation.navigate('Pedoman')}
+          />
+          <Gap height={6} />
+          <Button text="Tawaf" onPress={() => navigation.navigate('Pedoman')} />
+          <Gap height={6} />
+          <Button
+            text="Sa'i"
+            color="#FFFF"
+            onPress={() => navigation.navigate('Pedoman')}
+          />
+          <Gap height={6} />
+          <Button
+            text="Wuquf di Arofah"
+            onPress={() => navigation.navigate('Pedoman')}
+          />
+          <Gap height={6} />
+          <Button
+            text="Mabid di Musdalifa"
+            color="#FFFF"
+            onPress={() => navigation.navigate('Pedoman')}
+          />
+          <Gap height={6} />
+          <Button
+            text="Melontar Jumrah di Mina"
+            onPress={() => navigation.navigate('Pedoman')}
+          />
+          <Gap height={6} />
+          <Button
+            text="Tawaf Ifadah"
+            color="#FFFF"
+            onPress={() => navigation.navigate('Pedoman')}
+          />
+          <Gap height={6} />
+          <Button
+            text="Tahallul"
+            onPress={() => navigation.navigate('Pedoman')}
+          />
+        </View>
+      </ScrollView>
     </View>
   );
 };

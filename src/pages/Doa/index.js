@@ -1,6 +1,6 @@
 import React from 'react';
-import {StyleSheet, Text, View} from 'react-native';
-import {HeaderMenu, ButtonMenu, Gap} from '../../components';
+import {StyleSheet, Text, View, ScrollView} from 'react-native';
+import {HeaderMenu, Button, Gap} from '../../components';
 
 const Doa = ({navigation}) => {
   return (
@@ -8,82 +8,84 @@ const Doa = ({navigation}) => {
       <View>
         <HeaderMenu title="Doa-Doa Manasik Haji dan Umroh" />
       </View>
-      <View style={styles.container}>
-        <Gap height={6} />
-        <ButtonMenu
-          text="Doa Keluar Rumah"
-          onPress={() => navigation.navigate('Doa')}
-        />
-        <Gap height={6} />
-        <ButtonMenu
-          text="Doa Setelah Duduk Dalam Kendaraan"
-          color="#FFFF"
-          onPress={() => navigation.navigate('Doa')}
-        />
-        <Gap height={6} />
-        <ButtonMenu
-          text="Doa Ketika Kendaraan Mulai Bergerak"
-          onPress={() => navigation.navigate('Doa')}
-        />
-        <Gap height={6} />
-        <ButtonMenu
-          text="Doa Ketika Tiba Ditempat Tujuan"
-          color="#FFFF"
-          onPress={() => navigation.navigate('Doa')}
-        />
-        <Gap height={6} />
-        <ButtonMenu
-          text="Niat Umrah dan Haji"
-          onPress={() => navigation.navigate('Doa')}
-        />
-        <Gap height={6} />
-        <ButtonMenu
-          text="Niat Haji Qiran"
-          color="#FFFF"
-          onPress={() => navigation.navigate('Doa')}
-        />
-        <Gap height={6} />
-        <ButtonMenu
-          text="Doa Selesai Berihram"
-          onPress={() => navigation.navigate('Doa')}
-        />
-        <Gap height={6} />
-        <ButtonMenu
-          text="Doa Talbiyah"
-          color="#FFFF"
-          onPress={() => navigation.navigate('Doa')}
-        />
-        <Gap height={6} />
-        <ButtonMenu
-          text="Doa Memasuki Kota Makkah"
-          onPress={() => navigation.navigate('Doa')}
-        />
-        <Gap height={6} />
-        <ButtonMenu
-          text="Doa Masuk Masjidil Haram"
-          color="#FFFF"
-          onPress={() => navigation.navigate('Doa')}
-        />
-        <Gap height={6} />
-        <ButtonMenu
-          text="Doa Ketika Melihat Kabah"
-          onPress={() => navigation.navigate('Doa')}
-        />
-        <Gap height={6} />
-        <ButtonMenu
-          text="Doa Tawaf"
-          color="#FFFF"
-          onPress={() => navigation.navigate('Doa')}
-        />
-        <Gap height={6} />
-        <ButtonMenu text="Doa Sai" onPress={() => navigation.navigate('Doa')} />
-        <Gap height={6} />
-        <ButtonMenu
-          text="Doa Menggunting Rambut"
-          color="#FFFF"
-          onPress={() => navigation.navigate('Doa')}
-        />
-      </View>
+      <ScrollView>
+        <View style={styles.container}>
+          <Gap height={6} />
+          <Button
+            text="Doa Keluar Rumah"
+            onPress={() => navigation.navigate('Doa')}
+          />
+          <Gap height={6} />
+          <Button
+            text="Doa Setelah Duduk Dalam Kendaraan"
+            color="#FFFF"
+            onPress={() => navigation.navigate('Doa')}
+          />
+          <Gap height={6} />
+          <Button
+            text="Doa Ketika Kendaraan Mulai Bergerak"
+            onPress={() => navigation.navigate('Doa')}
+          />
+          <Gap height={6} />
+          <Button
+            text="Doa Ketika Tiba Ditempat Tujuan"
+            color="#FFFF"
+            onPress={() => navigation.navigate('Doa')}
+          />
+          <Gap height={6} />
+          <Button
+            text="Niat Umrah dan Haji"
+            onPress={() => navigation.navigate('Doa')}
+          />
+          <Gap height={6} />
+          <Button
+            text="Niat Haji Qiran"
+            color="#FFFF"
+            onPress={() => navigation.navigate('Doa')}
+          />
+          <Gap height={6} />
+          <Button
+            text="Doa Selesai Berihram"
+            onPress={() => navigation.navigate('Doa')}
+          />
+          <Gap height={6} />
+          <Button
+            text="Doa Talbiyah"
+            color="#FFFF"
+            onPress={() => navigation.navigate('Doa')}
+          />
+          <Gap height={6} />
+          <Button
+            text="Doa Memasuki Kota Makkah"
+            onPress={() => navigation.navigate('Doa')}
+          />
+          <Gap height={6} />
+          <Button
+            text="Doa Masuk Masjidil Haram"
+            color="#FFFF"
+            onPress={() => navigation.navigate('Doa')}
+          />
+          <Gap height={6} />
+          <Button
+            text="Doa Ketika Melihat Kabah"
+            onPress={() => navigation.navigate('Doa')}
+          />
+          <Gap height={6} />
+          <Button
+            text="Doa Tawaf"
+            color="#FFFF"
+            onPress={() => navigation.navigate('Doa')}
+          />
+          <Gap height={6} />
+          <Button text="Doa Sai" onPress={() => navigation.navigate('Doa')} />
+          <Gap height={6} />
+          <Button
+            text="Doa Menggunting Rambut"
+            color="#FFFF"
+            onPress={() => navigation.navigate('Doa')}
+          />
+        </View>
+      </ScrollView>
     </View>
   );
 };
