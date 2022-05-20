@@ -1,6 +1,6 @@
 import {StyleSheet, Text, View} from 'react-native';
 import React from 'react';
-import {Button, Gap, LogoSimanhto, ButtonNav} from '../../components';
+import {Button, Gap, LogoSimanhto} from '../../components';
 
 const Home = ({navigation}) => {
   return (
@@ -31,9 +31,6 @@ const Home = ({navigation}) => {
           color="#FFFF"
           onPress={() => navigation.navigate('Jadwal')}
         />
-      </View>
-      <View>
-        <ButtonNav onPress={() => navigation.navigate('MainApp')} />
       </View>
     </View>
   );

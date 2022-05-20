@@ -1,6 +1,6 @@
 import Button from './Button';
 import ButtonMenu from './ButtonMenu';
-import ButtonNav from './ButtonNav';
 import Gap from './Gap';
+import Iframe from './Iframe';
 
-export {Button, ButtonMenu, ButtonNav, Gap};
+export {Button, ButtonMenu, Gap, Iframe};

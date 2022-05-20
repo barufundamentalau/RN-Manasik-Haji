@@ -72,7 +72,7 @@ const styles = StyleSheet.create({
     backgroundColor: 'green',
     paddingTop: 6,
     paddingBottom: 6,
-    paddingHorizontal: 75,
+    paddingHorizontal: 50,
     justifyContent: 'space-between',
   },
 });

@@ -1,15 +1,15 @@
-import React from 'react';
-import {createStackNavigator} from '@react-navigation/stack';
 import {createBottomTabNavigator} from '@react-navigation/bottom-tabs';
+import {createStackNavigator} from '@react-navigation/stack';
+import React from 'react';
 import {BottomNavigator} from '../components';
 import {
-  SplashScreen,
-  Home,
-  Pedoman,
   Doa,
-  Video,
+  Home,
   Jadwal,
+  Pedoman,
+  SplashScreen,
   Tentang,
+  Video,
 } from '../pages';
 
 const Stack = createStackNavigator();
