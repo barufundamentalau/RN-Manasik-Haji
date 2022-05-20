@@ -96,12 +96,16 @@ const Doa = ({navigation}) => {
 export default Doa;
 
 const styles = StyleSheet.create({
-  page: {flex: 1, backgroundColor: 'yellow'},
+  page: {flex: 1, backgroundColor: '#28925A'},
   container: {
+    backgroundColor: 'green',
+    borderTopRightRadius: 20,
+    borderTopLeftRadius: 20,
+    marginTop: 0,
+    paddingTop: 26,
     paddingHorizontal: 24,
     paddingVertical: 2,
-    marginTop: 10,
     flex: 1,
-    marginBottom: 20,
+    marginBottom: 0,
   },
 });

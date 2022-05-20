@@ -40,10 +40,13 @@ export default Home;
 const styles = StyleSheet.create({
   page: {flex: 1},
   container: {
-    backgroundColor: 'yellow',
+    borderTopRightRadius: 20,
+    borderTopLeftRadius: 20,
+    marginTop: -18,
+    paddingTop: 26,
+    backgroundColor: 'green',
     paddingHorizontal: 24,
     paddingVertical: 22,
-    marginTop: 0,
     flex: 1,
   },
 });

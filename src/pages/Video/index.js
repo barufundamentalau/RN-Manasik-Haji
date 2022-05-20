@@ -6,7 +6,7 @@ const Video = () => {
   return (
     <View style={styles.page}>
       <HeaderMenu title="Video Tutorial" />
-      <View>
+      <View style={styles.container}>
         <ScrollView>
           <View style={styles.iframeCardContainer}>
             <Gap width={10} />
@@ -23,6 +23,13 @@ const Video = () => {
 export default Video;
 
 const styles = StyleSheet.create({
-  page: {flex: 1, backgroundColor: 'yellow'},
-  iframeCardContainer: {marginTop: 15, marginBottom: 80, marginHorizontal: 15},
+  page: {flex: 1, backgroundColor: '#28925A'},
+  container: {
+    backgroundColor: 'green',
+    borderTopRightRadius: 20,
+    borderTopLeftRadius: 20,
+    paddingTop: 20,
+    marginBottom: 0,
+  },
+  iframeCardContainer: {marginBottom: 80, marginHorizontal: 15},
 });

@@ -65,19 +65,19 @@ const styles = StyleSheet.create({
     alignItems: 'center',
   },
   content: {
-    backgroundColor: 'green',
+    backgroundColor: 'white',
     borderTopRightRadius: 20,
     borderTopLeftRadius: 20,
-    marginTop: -30,
+    marginTop: -18,
     paddingTop: 26,
     paddingHorizontal: 16,
     flex: 1,
   },
-  title: {fontSize: 18, fontFamily: 'Poppins-Regular', color: '#FFFF'},
+  title: {fontSize: 18, fontFamily: 'Poppins-Regular', color: '#020202'},
   desc: {
     fontSize: 14,
     fontFamily: 'Poppins-Regular',
-    color: '#FFFF',
+    color: '#020202',
     marginBottom: 20,
   },
 });

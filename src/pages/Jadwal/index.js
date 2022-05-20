@@ -24,6 +24,6 @@ const Jadwal = () => {
 export default Jadwal;
 
 const styles = StyleSheet.create({
-  page: {flex: 1, backgroundColor: 'yellow'},
+  page: {flex: 1, backgroundColor: 'green'},
   bannerCardContainer: {flexDirection: 'row', marginVertical: 22},
 });

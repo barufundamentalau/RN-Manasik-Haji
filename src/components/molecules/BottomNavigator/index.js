@@ -1,6 +1,19 @@
 import React from 'react';
 import {StyleSheet, TouchableOpacity, View} from 'react-native';
-import {IcAboutOff, IcAboutOn, IcHomeOff, IcHomeOn} from '../../../assets';
+import {
+  IcAboutOff,
+  IcAboutOn,
+  IcHomeOff,
+  IcHomeOn,
+  IcJadwalOn,
+  IcJadwalOff,
+  IcDoaOn,
+  IcDoaOff,
+  IcPedomanOn,
+  IcPedomanOff,
+  IcVideoOn,
+  IcVideoOff,
+} from '../../../assets';
 
 const Icon = ({label, focus}) => {
   switch (label) {
@@ -8,6 +21,14 @@ const Icon = ({label, focus}) => {
       return focus ? <IcHomeOn /> : <IcHomeOff />;
     case 'Tentang':
       return focus ? <IcAboutOn /> : <IcAboutOff />;
+    case 'Jadwal':
+      return focus ? <IcJadwalOn /> : <IcJadwalOff />;
+    case 'Doa':
+      return focus ? <IcDoaOn /> : <IcDoaOff />;
+    case 'Pedoman':
+      return focus ? <IcPedomanOn /> : <IcPedomanOff />;
+    case 'Video':
+      return focus ? <IcVideoOn /> : <IcVideoOff />;
     default:
       return <IcHomeOn />;
   }
@@ -70,9 +91,9 @@ const styles = StyleSheet.create({
   container: {
     flexDirection: 'row',
     backgroundColor: 'green',
-    paddingTop: 6,
-    paddingBottom: 6,
-    paddingHorizontal: 50,
+    paddingTop: 10,
+    paddingBottom: 20,
+    paddingHorizontal: 30,
     justifyContent: 'space-between',
   },
 });

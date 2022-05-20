@@ -21,6 +21,22 @@ const MainApp = () => {
   return (
     <Tab.Navigator tabBar={props => <BottomNavigator {...props} />}>
       <Tab.Screen name="Home" component={Home} options={{headerShown: false}} />
+      <Tab.Screen name="Doa" component={Doa} options={{headerShown: false}} />
+      <Tab.Screen
+        name="Pedoman"
+        component={Pedoman}
+        options={{headerShown: false}}
+      />
+      <Tab.Screen
+        name="Video"
+        component={Video}
+        options={{headerShown: false}}
+      />
+      <Tab.Screen
+        name="Jadwal"
+        component={Jadwal}
+        options={{headerShown: false}}
+      />
       <Tab.Screen
         name="Tentang"
         component={Tentang}
@@ -41,22 +57,6 @@ const Router = () => {
       <Stack.Screen
         name="MainApp"
         component={MainApp}
-        options={{headerShown: false}}
-      />
-      <Stack.Screen
-        name="Pedoman"
-        component={Pedoman}
-        options={{headerShown: false}}
-      />
-      <Stack.Screen name="Doa" component={Doa} options={{headerShown: false}} />
-      <Stack.Screen
-        name="Video"
-        component={Video}
-        options={{headerShown: false}}
-      />
-      <Stack.Screen
-        name="Jadwal"
-        component={Jadwal}
         options={{headerShown: false}}
       />
       <Stack.Screen
