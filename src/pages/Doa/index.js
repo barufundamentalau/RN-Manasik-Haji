@@ -13,76 +13,79 @@ const Doa = ({navigation}) => {
           <Gap height={6} />
           <Button
             text="Doa Keluar Rumah"
-            onPress={() => navigation.navigate('Doa')}
+            onPress={() => navigation.navigate('DoaDetail')}
           />
           <Gap height={6} />
           <Button
             text="Doa Setelah Duduk Dalam Kendaraan"
             color="#FFFF"
-            onPress={() => navigation.navigate('Doa')}
+            onPress={() => navigation.navigate('DoaDetail')}
           />
           <Gap height={6} />
           <Button
             text="Doa Ketika Kendaraan Mulai Bergerak"
-            onPress={() => navigation.navigate('Doa')}
+            onPress={() => navigation.navigate('DoaDetail')}
           />
           <Gap height={6} />
           <Button
             text="Doa Ketika Tiba Ditempat Tujuan"
             color="#FFFF"
-            onPress={() => navigation.navigate('Doa')}
+            onPress={() => navigation.navigate('DoaDetail')}
           />
           <Gap height={6} />
           <Button
             text="Niat Umrah dan Haji"
-            onPress={() => navigation.navigate('Doa')}
+            onPress={() => navigation.navigate('DoaDetail')}
           />
           <Gap height={6} />
           <Button
             text="Niat Haji Qiran"
             color="#FFFF"
-            onPress={() => navigation.navigate('Doa')}
+            onPress={() => navigation.navigate('DoaDetail')}
           />
           <Gap height={6} />
           <Button
             text="Doa Selesai Berihram"
-            onPress={() => navigation.navigate('Doa')}
+            onPress={() => navigation.navigate('DoaDetail')}
           />
           <Gap height={6} />
           <Button
             text="Doa Talbiyah"
             color="#FFFF"
-            onPress={() => navigation.navigate('Doa')}
+            onPress={() => navigation.navigate('DoaDetail')}
           />
           <Gap height={6} />
           <Button
             text="Doa Memasuki Kota Makkah"
-            onPress={() => navigation.navigate('Doa')}
+            onPress={() => navigation.navigate('DoaDetail')}
           />
           <Gap height={6} />
           <Button
             text="Doa Masuk Masjidil Haram"
             color="#FFFF"
-            onPress={() => navigation.navigate('Doa')}
+            onPress={() => navigation.navigate('DoaDetail')}
           />
           <Gap height={6} />
           <Button
             text="Doa Ketika Melihat Kabah"
-            onPress={() => navigation.navigate('Doa')}
+            onPress={() => navigation.navigate('DoaDetail')}
           />
           <Gap height={6} />
           <Button
             text="Doa Tawaf"
             color="#FFFF"
-            onPress={() => navigation.navigate('Doa')}
+            onPress={() => navigation.navigate('DoaDetail')}
           />
           <Gap height={6} />
-          <Button text="Doa Sai" onPress={() => navigation.navigate('Doa')} />
+          <Button
+            text="Doa Sai"
+            onPress={() => navigation.navigate('DoaDetail')}
+          />
           <Gap height={6} />
           <Button
             text="Doa Menggunting Rambut"
             color="#FFFF"
-            onPress={() => navigation.navigate('Doa')}
+            onPress={() => navigation.navigate('DoaDetail')}
           />
         </View>
       </ScrollView>
@@ -93,12 +96,12 @@ const Doa = ({navigation}) => {
 export default Doa;
 
 const styles = StyleSheet.create({
-  page: {flex: 1},
+  page: {flex: 1, backgroundColor: 'yellow'},
   container: {
-    backgroundColor: 'yellow',
     paddingHorizontal: 24,
     paddingVertical: 2,
-    marginTop: 0,
+    marginTop: 10,
     flex: 1,
+    marginBottom: 20,
   },
 });

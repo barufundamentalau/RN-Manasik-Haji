@@ -10,7 +10,7 @@ import React from 'react';
 import {IcBackWhite, IcDetailThumb} from '../../assets';
 import {Gap} from '../../components';
 
-const Tentang = () => {
+const DoaDetail = () => {
   return (
     <View style={styles.page}>
       <ImageBackground source={IcDetailThumb} style={styles.thumb}>
@@ -21,7 +21,7 @@ const Tentang = () => {
       <View style={styles.content}>
         <ScrollView>
           <View>
-            <Text style={styles.title}>Tentang Kami Page</Text>
+            <Text style={styles.title}>Doa - doa Detail Page</Text>
           </View>
           <Gap height={15} />
           <Text style={styles.desc}>
@@ -53,7 +53,7 @@ const Tentang = () => {
   );
 };
 
-export default Tentang;
+export default DoaDetail;
 
 const styles = StyleSheet.create({
   page: {flex: 1},

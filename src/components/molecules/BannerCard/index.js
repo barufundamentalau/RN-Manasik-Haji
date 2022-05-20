@@ -31,7 +31,10 @@ const styles = StyleSheet.create({
     marginRight: 10,
   },
   image: {width: 330, height: 500, resizeMode: 'contain'},
-  content: {padding: 6},
+  content: {
+    alignItems: 'center',
+    padding: 6,
+  },
   text: {
     fontSize: 14,
     fontFamily: 'Poppins-Regular',

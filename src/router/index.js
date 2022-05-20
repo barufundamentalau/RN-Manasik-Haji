@@ -3,11 +3,13 @@ import {createStackNavigator} from '@react-navigation/stack';
 import React from 'react';
 import {BottomNavigator} from '../components';
 import {
-  Doa,
+  SplashScreen,
   Home,
+  Doa,
+  DoaDetail,
   Jadwal,
   Pedoman,
-  SplashScreen,
+  PedomanDetail,
   Tentang,
   Video,
 } from '../pages';
@@ -55,6 +57,16 @@ const Router = () => {
       <Stack.Screen
         name="Jadwal"
         component={Jadwal}
+        options={{headerShown: false}}
+      />
+      <Stack.Screen
+        name="PedomanDetail"
+        component={PedomanDetail}
+        options={{headerShown: false}}
+      />
+      <Stack.Screen
+        name="DoaDetail"
+        component={DoaDetail}
         options={{headerShown: false}}
       />
     </Stack.Navigator>

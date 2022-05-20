@@ -32,7 +32,7 @@ const styles = StyleSheet.create({
     marginBottom: 20,
   },
   youtube: {resizeMode: 'cover'},
-  content: {padding: 6},
+  content: {alignItems: 'center', padding: 6},
   text: {
     fontSize: 14,
     fontFamily: 'Poppins-Regular',
