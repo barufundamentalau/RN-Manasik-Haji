@@ -1,18 +1,22 @@
 import React from 'react';
-import {StyleSheet, Text, View, Image, ScrollView} from 'react-native';
-import {HeaderMenu} from '../../components';
+import {ScrollView, StyleSheet, View} from 'react-native';
 import {IcJadwalSatu, IcJadwalDua} from '../../assets';
+import {BannerCard, Gap, HeaderMenu} from '../../components';
 
 const Jadwal = () => {
   return (
-    <View>
+    <View style={styles.page}>
       <HeaderMenu title="Jadwal Zoom" />
-      <ScrollView>
-        <View style={styles.content}>
-          <Image source={IcJadwalSatu} />
-          <Image source={IcJadwalDua} />
-        </View>
-      </ScrollView>
+      <View>
+        <ScrollView horizontal showsHorizontalScrollIndicator={false}>
+          <View style={styles.bannerCardContainer}>
+            <Gap width={10} />
+            <BannerCard image={IcJadwalSatu} />
+            <BannerCard image={IcJadwalDua} />
+            <BannerCard image={IcJadwalSatu} />
+          </View>
+        </ScrollView>
+      </View>
     </View>
   );
 };
@@ -20,7 +24,6 @@ const Jadwal = () => {
 export default Jadwal;
 
 const styles = StyleSheet.create({
-  content: {
-    paddingTop: 26,
-  },
+  page: {flex: 1, backgroundColor: 'yellow'},
+  bannerCardContainer: {flexDirection: 'row', marginVertical: 22},
 });
